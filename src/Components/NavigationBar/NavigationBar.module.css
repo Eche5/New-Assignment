@@ -1,0 +1,22 @@
+.navigation {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+}
+nav ul {
+  display: flex;
+}
+nav li {
+  text-decoration: underline;
+  margin-left: 2rem;
+  font-style: italic;
+  list-style: none;
+}
+nav{
+    background-color: white;
+}
+.navigation img{
+    margin-top: 0.5rem;
+    width: 40px;
+    height: 40px;
+}

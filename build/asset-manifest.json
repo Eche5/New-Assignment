@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/react-assignment/static/css/main.a0879f78.css",
+    "main.js": "/react-assignment/static/js/main.94bc96ab.js",
+    "static/media/photo-1459666644539-a9755287d6b0.png": "/react-assignment/static/media/photo-1459666644539-a9755287d6b0.b2dfc32ff021dda8dad1.png",
+    "static/media/photo-1417021423914-070979c8eb34.png": "/react-assignment/static/media/photo-1417021423914-070979c8eb34.b5b527c5ef1ce94d7a98.png",
+    "static/media/peak.png": "/react-assignment/static/media/peak.0410ebf49d24c4e50512.png",
+    "static/media/photo-1443980995706-8d107e98e707.png": "/react-assignment/static/media/photo-1443980995706-8d107e98e707.c16efee1df804da13bda.png",
+    "static/media/photo-1458442310124-dde6edb43d10.png": "/react-assignment/static/media/photo-1458442310124-dde6edb43d10.858287666283e4d377e2.png",
+    "index.html": "/react-assignment/index.html",
+    "main.a0879f78.css.map": "/react-assignment/static/css/main.a0879f78.css.map",
+    "main.94bc96ab.js.map": "/react-assignment/static/js/main.94bc96ab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0879f78.css",
+    "static/js/main.94bc96ab.js"
+  ]
+}

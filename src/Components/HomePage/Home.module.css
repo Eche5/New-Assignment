@@ -1,0 +1,44 @@
+.contentmain {
+  background-image: url("../Assets/photo-1459666644539-a9755287d6b0.png");
+  height: 100vh;
+  width: 100%;
+  margin-top: -4rem;
+}
+
+.los {
+  color: rgb(96, 18, 18);
+  font-size: 72px;
+  font-family: sans-serif;
+  text-align: center;
+}
+.geles {
+  color: rgb(3, 1, 17);
+  font-size: 86px;
+  font-family: sans-serif;
+  text-align: center;
+}
+.anchor {
+  padding: 10rem;
+}
+@media (max-width: 768px) {
+  .los {
+    font-size: 48px;
+  }
+  .geles {
+    font-size: 64px;
+  }
+  .anchor {
+    padding: 5rem;
+  }
+}
+@media (max-width: 480px) {
+  .los {
+    font-size: 36px;
+  }
+  .geles {
+    font-size: 48px;
+  }
+  .anchor {
+    padding: 2rem;
+  }
+}
