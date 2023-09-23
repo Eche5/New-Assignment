@@ -1,8 +1,11 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Root from "./Components/Root";
-import Home from "./Components/HomePage/Home";
-import History from "./Components/HistoryPage/History";
-import Team from "./Components/TeamPage/Team";
+import { Suspense, lazy } from "react";
+import Loader from "./Components/Loader";
+
+const Team = lazy(() => import("./Components/TeamPage/Team"));
+const Home = lazy(() => import("./Components/HomePage/Home"));
+const History = lazy(() => import("./Components/HistoryPage/History"));
 function App() {
   const router = createBrowserRouter([
     {
@@ -15,7 +18,11 @@ function App() {
     },
     { path: "/team", element: <Team /> },
   ]);
-  return <RouterProvider router={router}></RouterProvider>;
+  return (
+    <Suspense fallback={<Loader />}>
+      <RouterProvider router={router}></RouterProvider>
+    </Suspense>
+  );
 }
 
 export default App;
